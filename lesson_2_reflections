@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Ans: When we initialise a repository, an empty .git file is created in the current directory which stores all the git related information like commits, logs etc.
+We need to give a command 'git init' to to initialise a fit repository for the current directory.
+
+ 
