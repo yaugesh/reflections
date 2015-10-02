@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Ans: Diff had some lines prefixed with '+' or '-'. While '+' meant the lines that were added to the new version file and '-' pinpointed the lines removed from the older version. This helped me spot the difference between older and newer versions of he file and hence the bug is spotted.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Ans: Having easy access to the history means if you have made a mistake in something which was okay before, you can easily go back to that older version. It's more like an 'undo' button.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Ans:
+ 						pros 								cons
+ Git 				logical version changes				user may forget 
+ 					not too much clutter				
+
+
+ Google Docs		Removes error of user' 				unnecessary 															versions, some 														important logical 											changes might not get saved
+ 					forgetfulness
+ 					Each version can be accessed
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Ans: Some files are more closely related to each other, So the changes made in one has a great consequnces for the other files. In such cases, it is good to save multiple related files in one commit. While for google docs, etc there is less likely to have more files functionally related with each other. In that case it is not required to commit multiple files together. 
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Ans: git log gives commit IDs and the name of person who commited and the changes he made. git diff actually compares two versions based on their commit IDs and gives output of the actual script change in the file.
+
+ 
