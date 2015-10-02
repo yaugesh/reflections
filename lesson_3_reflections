@@ -3,3 +3,7 @@ When would you want to use a remote repository rather than keeping all your work
 Ans: When I am working on a collaborated project or working in a team at my workplace, remote repository will come handy as the work done by anyone can be easy accessible.
 
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Ans: Sometimes when I am working on something experimental like new features and I want to keep my work original and different from the people collaborating with me, I wont want my repository getting modified.
+
